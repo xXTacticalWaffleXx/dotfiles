@@ -614,3 +614,6 @@ for_window [class="MultiMC"]                        border pixel 1
 #move focused workspace between monitors
 bindsym $mod+ctrl+greater move workspace to output right
 bindsym $mod+ctrl+less    move workspace to output left
+
+#start glava
+exec_always glava --desktop
