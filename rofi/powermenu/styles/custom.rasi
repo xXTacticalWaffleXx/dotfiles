@@ -2,9 +2,9 @@
 
 * {
   al:      #00000000;
-  bg:      #0F1143FF;
-  bg-alt:  #141552ff;
-  fg:      #D11070ff;
+  bg:      #000000FF;
+  bg-alt:  #141414ff;
+  fg:      #da75d5ff;
   ac:      #FF83A7ff;
   red:     #EC7875ff;
   green:   #61C766ff;
@@ -15,7 +15,7 @@
   white:   #FFFCFFff;
   dingus:  #3E2197ff;
   urgent: #FFFFFFFF;
-  foreground: #D11070ff;
+  foreground: #da75d5ff;
   background-alt: #141552ff;
   border: #ffffffff;
 }
