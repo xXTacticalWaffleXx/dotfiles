@@ -51,6 +51,6 @@ EOF
 selected_option=$(printf "us\nuk" | rofi -no-lazy-grab -dmenu -scroll-method 1 -theme $dir/"$theme")
 
 case $selected_option in
-	uk) setxkbmap -layout gb;;
-	us) setxkbmap -layout us;;
+	uk) setxkbmap -layout gb && xmodmap -e "keycode 191=F13" && xmodmap -e "keycode 192=F14";;
+	us) setxkbmap -layout us && xmodmap -e "keycode 191=F13" && xmodmap -e "keycode 192=F14";;
 esac
