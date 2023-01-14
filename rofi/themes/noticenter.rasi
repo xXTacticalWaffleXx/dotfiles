@@ -1,0 +1,97 @@
+configuration {
+    threads: 0;
+    case-sensitive: false;
+    cycle: false;
+    scroll-method: 0;
+    normalize-match: true;
+    no-lazy-grab: true;
+    show-icons: true;
+    icon-theme: "Zafiro";
+    markup: true;
+    drun-display-format: "{name}";
+    location: 0;
+    sidebar-mode: true;
+    hover-select: true;
+    eh: 1;
+    terminal: "lxterminal";
+
+    display-drun: "Apps";
+    display-run: "Run";
+    display-window: "Opened Apps";
+    display-emoji: "Pick Emoji";
+}
+
+@theme "/dev/null"
+
+* {
+    background-color: #181f21;
+    font: "Roboto 12";
+    text-color: #dadada;
+}
+
+#window {
+    border: 3px;
+    border-color: #22292b;
+    transparency: "real";
+    width: 35%;
+    height: 525;
+}
+
+#scrollbar {
+    enabled: true;
+    background-color: #22292b;
+    handle-color: #3b4244;
+    border-color: #000000;
+    margin: 5px;
+}
+
+#listview {
+    columns: 1;
+    fixed-height: true;
+    dynamic: true;
+    scrollbar: true;
+    spacing: 0;
+}
+
+#prompt {
+    enabled: false;
+    margin: 20px 10px 20px 20px;
+}
+
+entry {
+    padding: 10px;
+    margin: 10px 3px 10px 10px;
+    background-color: #22292b;
+    border-radius: 3px;
+}
+
+#element-text,
+button,
+listview {
+    padding: 8;
+}
+
+#element.selected {
+    background-color: #22292b;
+    border-radius: 3px;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+    padding: 15px;
+}
+
+element-icon {
+    padding: 15 0 15 15;
+    size: 24px;
+}
+
+button {
+    margin: 5px;
+    border-radius: 3px;
+}
+
+button.selected {
+    background-color: #22292b;
+}
