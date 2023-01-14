@@ -272,7 +272,7 @@ bindsym $mod+XF86AudioLowerVolume exec amixer -D pulse sset Master 1%- && ~/.con
 bindsym XF86AudioMute exec amixer sset Master toggle && ~/.config/i3/scripts/vol-notif.sh
 
 # audio control
-bindsym XF86AudioPlay exec playerctl playpause
+bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
