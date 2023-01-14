@@ -618,3 +618,6 @@ bindsym $mod+ctrl+less    move workspace to output left
 
 #start glava
 exec_always glava --desktop
+
+#set the default keyboard layout
+exec_always setxkbmap -layout us
