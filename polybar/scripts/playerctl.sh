@@ -37,7 +37,7 @@ else
 
     # Bar text
     #echo "$artist_trunc - $title_trunc"
-    echo "$title_trunc - $artist_proper"
+    echo "$title_trunc - $artist_trunc"
 
     # Tooltip text
     #echo "<tool> <i>$title_full</i>"
