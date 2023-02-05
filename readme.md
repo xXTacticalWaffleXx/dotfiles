@@ -11,3 +11,4 @@ WM: i3 <br>
 term: kitty <br>
 OS: EndeavourOS <br>
 visualiser: glava <br>
+editor: <a href="https://astronvim.github.io/">Astronvim</a> <br>
