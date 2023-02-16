@@ -12,3 +12,7 @@ term: kitty <br>
 OS: EndeavourOS <br>
 visualiser: glava <br>
 editor: <a href="https://astronvim.github.io/">Astronvim</a> <br>
+File manager: nemo <br>
+<h2 align="center"> Pictures </h2>
+
+<img src="./img/img1.png">
