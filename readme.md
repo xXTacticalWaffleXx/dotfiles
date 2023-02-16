@@ -13,6 +13,7 @@ OS: EndeavourOS <br>
 visualiser: glava <br>
 editor: <a href="https://astronvim.github.io/">Astronvim</a> <br>
 File manager: nemo <br>
+fetchscript: <a href="https://github.com/xXTacticalWaffleXx/minfetch"> minfetch </a> <br>
 <h2 align="center"> Pictures </h2>
 
 <img src="./img/img1.png">
