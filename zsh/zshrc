@@ -117,3 +117,5 @@ export PATH="$PATH:/home/luna/.local/bin"
  
 export VISUAL=nvim;
 export EDITOR=nvim;
+
+export GTK_THEME=phocus
