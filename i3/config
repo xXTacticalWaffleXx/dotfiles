@@ -599,8 +599,6 @@ bindsym $mod+t exec rofi -show window \
 bindsym mod1+s exec flameshot gui
 bindsym mod1+a exec sleep 4 && flameshot gui
 
-#start polybar on launch
-exec_always polybar monitor1
 
 #start certain programs as floating
 #to get the class value for a certain window open a terminal run sleep 2 && xdotool getactivewindow getwindowclassname
@@ -617,8 +615,8 @@ for_window [class="MultiMC"]                        border pixel 1
 bindsym $mod+ctrl+greater move workspace to output right
 bindsym $mod+ctrl+less    move workspace to output left
 
-#start glava
-exec_always glava --desktop
-
 #set the default keyboard layout
 exec_always setxkbmap -layout us
+
+#launch processes
+exec_always ~/.config/i3/scripts/launch-processes

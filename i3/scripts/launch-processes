@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if ! ps -aux | grep -v grep | grep "polybar monitor1"; then
+  polybar monitor1
+fi
+
+if ! ps -aux | grep -v grep | grep "glava --desktop"; then
+  glava --desktop
+fi
