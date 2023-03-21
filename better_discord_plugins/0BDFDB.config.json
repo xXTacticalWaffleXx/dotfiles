@@ -6,7 +6,8 @@
 			"BetterSearchPage": "1.2.3",
 			"ChatAliases": "2.4.6",
 			"PluginRepo": "2.4.6",
-			"StaffTag": "1.5.9"
+			"StaffTag": "1.5.9",
+			"ThemeRepo": "2.4.9"
 		},
 		"choices": {
 			"toastPosition": "right"
