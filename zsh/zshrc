@@ -108,6 +108,7 @@ alias mv="mv -i"
 alias git-rm="git rm --cached"
 alias git-ls="git ls-tree --full-tree --name-only -r HEAD"
 alias term-clock="tty-clock -c -C 5 -t -s"
+alias lvim="/home/luna/.local/bin/lvim"
 
 # miguel told me to add this XDD
 source /usr/share/doc/pkgfile/command-not-found.zsh
