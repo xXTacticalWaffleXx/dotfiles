@@ -229,6 +229,12 @@ exec = ~/.config/polybar/scripts/next.sh
 label = %output%
 label-foreground = ${colors.primary}
 
+; wip
+[module/powermenu]
+type = custom/text
+content =  
+click-left = ~/.config/rofi/powermenu/powermenu.sh
+
 [settings]
 screenchange-reload = true
 pseudo-transparency = true
