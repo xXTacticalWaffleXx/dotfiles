@@ -618,5 +618,5 @@ bindsym $mod+ctrl+less    move workspace to output left
 #set the default keyboard layout
 exec_always setxkbmap -layout us
 
-#launch processes
+#launch glava and polybar
 exec_always ~/.config/i3/scripts/launch-processes
