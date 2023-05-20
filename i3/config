@@ -620,3 +620,9 @@ exec_always setxkbmap -layout us
 
 #launch glava and polybar
 exec_always ~/.config/i3/scripts/launch-processes
+
+#set keybindings for the new minimise thing
+#minimise window
+bindsym $mod+m move container to workspace 11
+#go to workspace 11 (to be replaced by a funky rofi menu soon)
+bindsym $mod+shift+m workspace 11
