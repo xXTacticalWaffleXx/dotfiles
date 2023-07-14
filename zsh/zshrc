@@ -115,6 +115,8 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 
 # Created by `pipx` on 2022-11-22 01:46:28
 export PATH="$PATH:/home/luna/.local/bin"
+export PATH="$PATH:/$DEVKITPRO/tools/bin"
+export PATH="$PATH:/$DEVKITARM/bin"
  
 export VISUAL=nvim;
 export EDITOR=nvim;
