@@ -1,3 +1,11 @@
+# This theme is a version of agnoster that i have edited
+#
+# I did not create the original theme
+#
+# List of changes I've made:
+# removed the host name from the directory section
+# changed the colour of the directory section
+
 # vim:ft=zsh ts=2 sw=2 sts=2
 #
 # agnoster's Theme - https://gist.github.com/3712874
