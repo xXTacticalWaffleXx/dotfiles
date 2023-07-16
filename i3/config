@@ -626,3 +626,6 @@ exec_always ~/.config/i3/scripts/launch-processes
 bindsym $mod+m move container to workspace 11
 #go to workspace 11 (to be replaced by a funky rofi menu soon)
 bindsym $mod+shift+m workspace 11
+
+#set wallpaper
+exec_always feh --bg-scale ~/Pictures/bg.png
