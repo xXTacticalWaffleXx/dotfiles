@@ -69,7 +69,9 @@ font-1 = komorebi gothic:pixelsize=13;3
 font-3 = feather:style=Bold:pixelsize=13;4
 font-4 = "noto sans symbols2:style=Regular:pixelsize=17;3"
 
-modules-left = i3 playerctl playerctl-prev playerctl-play-pause playerctl-next
+modules-left = i3
+;playerctl playerctl-prev playerctl-play-pause playerctl-next
+; removing these modules as a troubleshooting step for firefox crashing issue
 modules-center = time date
 modules-right = filesystem pulseaudio wlan
 
