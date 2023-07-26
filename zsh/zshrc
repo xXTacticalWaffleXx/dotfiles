@@ -121,4 +121,4 @@ export PATH="$PATH:/$DEVKITARM/bin"
 export VISUAL=nvim;
 export EDITOR=nvim;
 
-export GTK_THEME=phocus
+export GTK_THEME=Phocus
