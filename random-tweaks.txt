@@ -1,0 +1,10 @@
+this is just a list of random tweaks that i like using
+
+make steam open library by default
+
+steam menu > settings > interface > start up location
+
+stop steam from opening the news window
+
+steam menu > settings > interface > notify me about additions or changes to my games, new releases and upcoming releases
+(if this box is already unchecked just check and uncheck it)
