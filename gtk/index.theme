@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Phocus
+Comment=Luna's fork of phocus
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Phocus
+MetacityTheme=Phocus
+IconTheme=Adwaita
+CursorTheme=DMZ-Black
+ButtonLayout=menu:minimize,maximize,close
