@@ -1,9 +1,11 @@
 #!/bin/bash
 
-if ! ps -aux | grep -v grep | grep "polybar monitor1"; then
+# if ! ps -aux | grep -v grep | grep "polybar monitor1"; then
+  killall polybar
   polybar monitor1
-fi
+# fi
 
-if ! ps -aux | grep -v grep | grep "glava --desktop"; then
+# if ! ps -aux | grep -v grep | grep "glava --desktop"; then
+  killall glava
   glava --desktop
-fi
+# fi
