@@ -6,6 +6,6 @@
 # fi
 
 # if ! ps -aux | grep -v grep | grep "glava --desktop"; then
-  killall glava
-  glava --desktop
+  #killall glava
+  #glava --desktop
 # fi
